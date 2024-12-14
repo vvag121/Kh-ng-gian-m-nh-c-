@@ -1,0 +1,245 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #72ada9;
+	z-index: 0;
+}
+
+.container{
+	position: relative;
+	z-index: 1;
+}
+
+.taskbar{
+	margin-top: 0.2em;
+	position: fixed;
+	background: transparent;
+	font-size: 3em;
+	left: 5%;
+	right: 5%;
+	height: 2em;
+	z-index: 2;
+}
+
+.taskbar .logo{
+	height: 100%;
+	border-radius: 100%;
+}
+
+.taskbar a{
+	text-decoration: none;
+}
+
+.taskbar .nameAdmin{
+	position: absolute;
+	right: 1%;
+	color: black;
+	font-weight: bold;
+	top: 5%;
+    user-select: none;
+}
+
+.adminInfo{
+	position: fixed;
+	z-index: 2;
+	right: 20%;
+	left: 20%;
+	height: 25em;
+	background: #66ffcc;
+	top: 3em;
+	border-radius: 30px;
+	border: 1em solid #9966ff;
+	display: none;
+	padding: 10%;
+	padding-top: 5%;
+}
+
+.adminInfo table{
+	margin: auto;
+	width: 80%;
+}
+
+.adminInfo table tr td{
+	font-size: 3em;
+}
+
+.adminInfo table tr td input{
+	font-size: 1em;
+	width: 100%;
+	background: transparent;
+	border: none;
+	font-family: "Times New Roman";
+}
+
+.adminInfo .submitUpdate{
+	background: #9966ff;
+	position: absolute;
+	bottom: 10%;
+	right: 10%;
+	font-size: 2em;
+	border-radius: 30px;
+	border: 5px solid transparent;
+	padding: 1%;
+}
+
+.adminInfo .btnChangePass{
+	right: 30%;
+}
+
+.adminInfo .logout{
+	right: 70%;
+}
+
+.adminInfo .submitUpdate:hover{
+	background: transparent;
+	border: 5px solid #9966ff;
+}
+
+.adminInfo .close{
+	position: absolute;
+	top: -3%;
+	right: -3%;
+	height: 10%;
+	z-index: 3;
+}
+
+.changePass{
+	right: 10%;
+	left: 10%;
+	background: #66ffcc;
+	position: absolute;
+	top: 5em;
+	padding-bottom: 10%;
+	padding-top: 5%;
+	border-radius: 30px;
+	border: 1em solid #9966ff;
+	z-index: 4;
+	font-size: 0.4em;
+	display: none;
+}
+
+.submitChange{
+	position: absolute;
+	right: 30% !important;
+}
+
+#alertPass{
+	display: inline;
+	color: red !important;
+}
+
+
+/*MENU*/
+.menu{
+	position: absolute;
+	top: -0.9em;
+	left: 10%;
+	width: 65%;
+	color: #9966ff;
+	font-weight: bold;
+}
+
+.menu a{
+	color: #000066;
+}
+
+.menu ul li{
+	display: inline;
+	padding-right: 5%;
+	user-select: none;
+}
+
+.menu ul li:hover{
+	color: #66ffcc;
+}
+
+/*CONTENT*/
+
+.content{
+	position: absolute;
+	background: transparent;
+	top: 10em;
+	right: 5%;
+	left: 5%;
+	z-index: -1;
+	font-size: 1em;
+	padding-bottom: 5em;
+}
+
+.content h1{
+	text-align: center;
+}
+
+.content table{
+	margin: auto;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.content table thead tr td{
+	text-align: center;
+	font-weight: bold;
+}
+
+.content table tr td{
+	border: 1px solid black;
+}
+
+.content .control{
+	position: absolute;
+	height: 5em;
+}
+
+.content .del{
+	right: 0;
+	height: 4.5em;
+}
+
+.content .upd{
+	right: 5%;
+}
+
+.content .add{
+	top: 0.5em;
+	right: 11%;
+	height: 4em;
+}
+
+.content .controlElement{
+	background: #9966ff;
+	position: absolute;
+	top: -1em;
+	font-size: 3em;
+	left: 2%;
+	right: 2%;
+	padding: 1em;
+	border: 0.5em solid #66ffcc;
+	border-radius: 30px;
+	display: none;
+}
+
+.content .controlElement .close{
+	height: 2em;
+	position: absolute;
+	top: -1em;
+	right: -1em;
+}
+
+.content .controlElement table{
+	border: none;
+}
+
+.content .controlElement table tr td{
+	border: none;
+}
+
+.content .controlElement input{
+	font-size: 1em;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+}
+
+.content .controlElement .submit:hover{
+	background: #66ffcc;
+}

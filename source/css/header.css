@@ -1,0 +1,15 @@
+body {
+	background: #3399ff;
+	text-align: center;
+	font-family: 'Arial', 'Times New Roman';
+	color: #99ffcc;
+
+}
+
+h1{
+	font-family: 'Vivaldi';
+	color: #6600ff;
+	font-weight: bold;
+	text-shadow: 20px -10px #009900;
+	font-size: 2.5em;
+}

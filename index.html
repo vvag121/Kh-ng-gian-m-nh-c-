@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Không Gian Âm Nhạc</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .header {
+            height: 20%;
+            background-color: #f0f0f0;
+        }
+        .content {
+            flex: 1;
+            overflow-y: auto;
+            background-color: #ffffff;
+        }
+        .footer {
+            height: 5%;
+            background-color: #f0f0f0;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <iframe src="./source/php/view/header.php"></iframe>
+    </div>
+    <div class="content">
+        <iframe src="./source/php/view/content.php"></iframe>
+    </div>
+    <div class="footer">
+        <iframe src="./source/php/view/footer.php"></iframe>
+    </div>
+</body>
+</html>

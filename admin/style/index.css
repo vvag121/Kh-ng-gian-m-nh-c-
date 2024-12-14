@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #72ada9;
+}
+
+.container{
+	padding-top: 10%;
+	position: relative;
+}
+
+h1{
+	text-align: center;
+}
+
+table{
+	margin: auto;
+}
+
+table input{
+	background: transparent;
+	border-radius: 30px;
+	padding-left: 10%;
+}
+
+.container .submit{
+	position: absolute;
+	right: 43%;
+	background: transparent;
+	border-radius: 30px;
+	width: 5em;
+}
+
+.container .submit:hover{
+	background: #3399ff;
+}
